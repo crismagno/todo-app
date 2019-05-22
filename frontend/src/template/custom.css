@@ -6,13 +6,25 @@
     text-decoration: line-through;
     color: #777;
 }
-#dia {
-    float: right;
-    
-}
-.todoForm {
-    padding-bottom: 80px;
-}
+
 .tableActions {
     width: 105px;
+}
+
+.todoForm {
+    padding-bottom: 60px;
+}
+
+.divTable {
+    height: 350px;
+    overflow-x: hidden;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.data {
+    float: right;
+    color: #777;
+    font-size: 12px;
 }

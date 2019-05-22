@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux'
-import todoReducer from '../todo/todoReducer'
+import { combineReducers } from "redux"
+import todoReducers from "../todo/todoReducers";
 
-const rootReducers = combineReducers({
-    todo: todoReducer
+const rootReducer = combineReducers({
+    todo: todoReducers
 })
 
-export default rootReducers
+export default rootReducer
